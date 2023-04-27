@@ -32,8 +32,8 @@
 .container .search input{
   border-style: none;
   background-color: rgba(228,231,228,0.1);
-  width: 89%;
-  margin-left: 15px;
+  /* width: 89%; */
+  /* margin-left: 15px; */
   outline: none;
   height: 2rem;
 }
@@ -42,9 +42,9 @@
   color: #00c170;
 }
 
-.container .search .search-box .icon{
+/* .container .search .search-box .icon{
     margin-left: 1.5rem;
-}
+} */
 /* Cards.js CSS Ends */
 
 
@@ -57,21 +57,3 @@
   height: 400px;
 }
 /* ReadBlog.js CSS Ends */
-
-/* Mobile view */
-@media (max-width:480px) {
-  .no-of-cards {
-    display: flex;
-    flex: 50%;
-    flex-wrap: wrap;
-  }
-}
-
-/* Tablet view */
-@media (min-width:481px) and (max-width:767px){
-  .no-of-cards{
-    display: flex;
-    flex: 100%;
-    flex-wrap: wrap;
-  }
-}

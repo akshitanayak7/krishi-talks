@@ -4,18 +4,17 @@ import '../App.css'
 export const ReadBlog = () => {
   return (
     <>
-     <div className="container-fluid px-0 ReadBlog">
-        <div className="row ">
-            <img src="/images/news3.jpg" className="img-fluid img1 shadow" alt=""/>
+     <div className="container-fluid ReadBlog">
+        <div className="row">
+            <img src="/images/news3.jpg" className="img-fluid img1 shadow p-0" alt=""/>
         </div>
     </div>
 
-    <div className="container read-content">
+    <div className="container read-content p-3 pt-0">
         <div className="row border border-white mt-4">
             <div className="col ">
                 <img className="rounded-circle d-inline shadow" src="/images/writer.webp" alt="" width="65px"/>
                 <div className="container  d-inline">
-
                     <div className="text-wrap  d-inline-block align-middle heading" style={{color:"#005718",width:'11rem'}}>
                       Blog By : Deepika bhatt  31st December 2023
                     </div>
@@ -84,7 +83,7 @@ export const ReadBlog = () => {
         <div className="row mt-4 text-center  mb-5">
             <div className="col  mb-5">
               <div className='d-inline'>
-                <i class="fa-solid fa-heart fa-1x" style={{color: "#003912"}}></i>40
+                <i class="fa-solid fa-heart fa-1x" style={{color: "#003912"}}></i>
               </div>
               <div className='d-inline'>
                 <i className="fa-solid fa-share-nodes px-5 fa-1x" style={{color: "#003912"}}></i>
